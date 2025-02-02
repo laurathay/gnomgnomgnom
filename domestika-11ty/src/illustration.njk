@@ -12,4 +12,8 @@ eleventyNavigation:
   <p>
     La página de illustration.
   </p>
+
+  {% for element in photos %}
+    <img src="/assets/images/{{element.photos}}" alt="">
+  {% endfor %}
 </div>
