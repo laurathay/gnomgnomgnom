@@ -1,17 +1,22 @@
 [
   {
-    "photos": "Bachelorette.png"
+    "photos": "Bachelorette.png",
+    "position" : "left"
   },
   {
-    "photos": "Tanyyyyy.png"
+    "photos": "Tanyyyyy.png",
+    "position" : "right"
   },
   {
-    "photos": "Thaïlande.png"
+    "photos": "Thaïlande.png",
+    "position" : "top"
   },
   {
-    "photos":"Roadtripping.png"
+    "photos":"Roadtripping.png",
+    "position" : "bottom"
   },
   {
-    "photos":"FO_SHO_BRO.png"
+    "photos":"FO_SHO_BRO.png",
+    "position" : "center"
   }
 ]
