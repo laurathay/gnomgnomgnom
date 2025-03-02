@@ -1,5 +1,18 @@
-Illustrations:
-<div class="projet">
+  {% set element = "photos": "Bachelorette.png" %}
+
+  {% if element.position === "full"  %}
+      {% set projetClass = "full-width" %}
+
+  {% elseif element.position === "left" %}
+      {% set projetClass = "left" %}
+
+  {% else element.position === "right" %}
+      {% set projetClass = "right" %}
+
+
+  {% endif%}
+
+<div class="projet {{projetClass}}">
       <img src="/assets/images/{{element.photos}}" alt="">
 s</div>
 
