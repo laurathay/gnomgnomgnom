@@ -1,18 +1,9 @@
 html {
+  /* Famille tipográficas */
+  --font-1: "Raleway", sans-serif;
+  --font-2: "Lato" sans-serif;
+  
   /* Variables tipográficas */
-  --text-2xs: 10px;
-  --text-xs: 12px;
-  --text-s: 14px;
-  --text-m: 16px;
-  --text-l: 18px;
-  --text-xl: 20px;
-  --text-2xl: 24px;
-  --text-3xl: 30px;
-  --text-4xl: 36px;
-  --text-5xl: 48px;
-  --text-6xl: 64px;
-
-  /* Escala aplicada */
   --text-caption: var(--text-xs);
   --text-note: var(--text-x);
   --text-base: var(--text-m);
