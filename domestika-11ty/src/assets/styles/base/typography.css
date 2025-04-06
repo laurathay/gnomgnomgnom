@@ -16,19 +16,19 @@ p {
 }
 
 .text-display {
-  font-size: var(--text-4xl);
+  font-size: var(--text-display);
 }
 
 .text-headline {
-  font-size: var(--text-3xl);
+  font-size: var(--text-headline);
 }
 
 .text-title {
-  font-size: var(--text-2xl);
+  font-size: var(--text-title);
 }
 
 .text-subheader {
-  font-size: var(--text-xl);
+  font-size: var(--text-subheader);
 }
 
 .text-body {
@@ -36,14 +36,23 @@ p {
 }
 
 .text-note {
-  font-size: var(--text-sm);
+  font-size: var(--text-note);
 }
 
 .text-caption {
-  font-size: var(--text-xs);
+  font-size: var(--text-caption);
 }
 
 .text-small {
   font-size: var(--text-2xs);
   text-transform: uppercase;
+}
+
+.font-1 {
+  font-family: var(--font-1);
+}
+
+.font-2 {
+  font-family: var(--font-2);
+  font-weight: normal;
 }

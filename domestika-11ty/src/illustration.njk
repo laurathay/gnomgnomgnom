@@ -9,15 +9,13 @@ eleventyNavigation:
 
 <div class="col-12">
 
-  {% set element = {"photos": "Bachelorette.png"}%}
-  {% include 'components/projet.njk'%}
+  {% for element in photos %}
+    {% include 'components/projet.njk'%}
+  {% endfor %}
   
-  <h1>Contacto</h1>
+  <h1 class="text-title font-2">Illustration</h1>
   <p>
     La página de illustration.
   </p>
 
-  {% for element in photos %}
-    {% include 'components/projet.njk'%}
-  {% endfor %}
 </div>
