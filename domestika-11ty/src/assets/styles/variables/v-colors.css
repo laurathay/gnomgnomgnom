@@ -24,4 +24,7 @@ html {
 
     --secondary: var(--secondary-4);
     --secondary-ligh: var(--secondary-1);
+
+    --link: var(--secondary-8);
+    --link-hover: var(--secondary-5);
 }
