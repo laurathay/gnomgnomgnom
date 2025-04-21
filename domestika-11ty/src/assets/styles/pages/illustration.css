@@ -1,0 +1,13 @@
+.illutration-text{
+    margin-top: var(--spacer-2xl);
+}
+
+@media (max-width:900px){
+    
+}
+
+@media(max-width: 500px){
+    .illustration-text{
+        order:-1;
+    }
+}
